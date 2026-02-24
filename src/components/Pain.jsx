@@ -19,7 +19,7 @@ export default function Pain() {
 
                     <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6 leading-tight text-balance">
                         Você ajuda empresas. Resolve problemas. <br className="hidden md:block" />
-                        <span className="text-gray-500">Entrega resultado.</span>
+                        <span className="text-shimmer">Entrega resultado.</span>
                     </h2>
 
                     <div className="p-[1px] rounded-2xl bg-gradient-to-r from-red-500/30 to-orange-500/10 max-w-2xl mx-auto shadow-xl">
