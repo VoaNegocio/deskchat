@@ -70,7 +70,7 @@ export default function LeadForm({ buttonText = '👉 Quero garantir minha vaga 
                 className="group relative w-full px-8 py-5 rounded-xl bg-gradient-to-r from-green-brand to-cyan-brand text-dark font-extrabold text-lg cursor-pointer overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(74,222,128,0.5)] active:scale-[0.98] glow-green block"
             >
                 {/* Shimmer */}
-                <span className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/25 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shimmer x-0 pointer-events-none" />
                 <span className="relative z-10 flex items-center justify-center gap-2">
                     {buttonText}
                 </span>
